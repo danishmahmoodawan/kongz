@@ -100,7 +100,6 @@ h2{
   background-repeat: no-repeat;
   background-size: cover;
   height: 73vh;
-  background-position: center;
 }
 .second_section{
   background: #222222;
@@ -322,8 +321,7 @@ p.sol{
     margin-bottom: -49px;
   }
   .first_section{
-    height: 26vh;
-    background-size: contain;
+    height: 80vh;
   }
   .right_third_col{
     background-size: cover;
@@ -427,14 +425,10 @@ display: none;
   .fifth_section .container:not(:last-child){
     padding-bottom: 40px;
   }
-  body, html{
-    overflow-x: hidden;
-  }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 540px) {
-  .first_section{
-    height: 33vh;
-    background-size: contain;
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  ..first_section{
+    height: 26vh;
   }
 }

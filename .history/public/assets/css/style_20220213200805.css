@@ -100,7 +100,6 @@ h2{
   background-repeat: no-repeat;
   background-size: cover;
   height: 73vh;
-  background-position: center;
 }
 .second_section{
   background: #222222;
@@ -323,7 +322,7 @@ p.sol{
   }
   .first_section{
     height: 26vh;
-    background-size: contain;
+    back
   }
   .right_third_col{
     background-size: cover;
